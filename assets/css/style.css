@@ -1,23 +1,22 @@
+/* general font/colors */
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url("../images/grey.png");
+    font-family: 'Rajdhani', sans-serif;
+    background-color: lightgray;
+    color: darkolivegreen;
 }
 
+/* "navbar" */
 header {
-    background-color: #ffffff;
     padding: 0;
     margin: 0;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     padding-bottom: 0;
-    border-bottom: solid;
-    border-color: #cccccc;
 }
 
+/* name in upper left */
 h1 {
-    background-color: #4aaaa5;
-    color: white;
+    color: darkolivegreen;
     padding: 30px 20px 30px 20px;
     width: 20%;
     text-align: center;
@@ -29,63 +28,68 @@ h1 {
     font-weight: bold;
 }
 
+/* about me/profile/contact heading format */
 h2 {
-    color: #4aaaa5;
     border-bottom: solid;
-    border-color: #cccccc;  
+    border-color: darkolivegreen;  
     padding-bottom: 20px;
     margin-bottom: 30px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 22px;
     font-weight: bold;
 }
 
+/* header links */
 a {
     padding: 20px;
-    color: #777777;
     text-decoration: none;
 }
 
+/* hover over links format */
 a:hover {
-    color: #4aaaa5;
-    text-decoration: underline;
+    color: darkolivegreen;
+    text-decoration: none;
 }
 
+/* submit button design */
 button {
-    color: #ffffff;
-    background-color: #4aaaa5;
+    color: lightgray;
+    background-color: darkolivegreen;
     padding: 5px 20px 5px 20px;  
     font-size: 14px;
 }
 
+/* footer format */
 footer {
-    background-color: #666666;
+    background-color: lightgray;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     text-align: center;
     border-top: solid;
-    border-color: #cccccc;
-    color: #ffffff;
+    border-color: darkolivegreen;
+    color: darkolivegreen;
     border-width: 5px;
     font-size: 12px; 
     width: 100%;
-    /* To toggle the sticky footer on/off, comment out the three properties below */  
-    margin-top: 420px;
+    /* toggle the "stickyness" footer on/off, comment out the three properties below */  
+    /* margin-top: 420px;
     position: fixed;
-    bottom: 0;
+    bottom: 0; */
 }
 
+/* image on profile page format */
 img {
     float: left;
 }
 
+/* contact page input boxes for name and email */
 input {
     width: 955px;
     height: 20px;
     margin-bottom: 10px;
 }
 
+/* contact page input box for the message area */
 textarea {
     width: 955px;
     height: 200px;
@@ -93,26 +97,30 @@ textarea {
     max-width: 955px;
 }
 
+/* about me main box text spacing*/
 p {
     line-height: 2;
     margin-bottom: 15px;
 }
 
+/* link emphasis in about me for "about" */
 strong {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
+/* about me photo */
 .me {
     margin-right: 20px;
     margin-bottom: 10px;
     margin-top: 5px;
     border: solid;
-    border-color: #cccccc;
+    border-color: lightgray;
     float: left;
 }
 
+/* about me main box */
 .about-me {
-    background-color: cyan;
+    background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -120,14 +128,14 @@ strong {
     margin-top: 50px;
     margin-bottom: 420px;
     border: solid;
-    border-color: #dddddd;
-    color: #777777;
-    background-color: #ffffff;
+    border-color: darkolivegreen;
+    color: darkolivegreen;
     line-height: 1.5;
 }
 
+/* contact main box */
 .contact {
-    background-color: cyan;
+    background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -135,14 +143,14 @@ strong {
     margin-top: 50px;
     margin-bottom: 420px;
     border: solid;
-    border-color: #dddddd;
-    color: #777777;
-    background-color: #ffffff;
+    border-color: darkolivegreen;
+    color: darkolivegreen;
     line-height: 1.5;
 }
 
+/* portfolio main box */
 .portfolio {
-    background-color: cyan;
+    background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -151,29 +159,29 @@ strong {
     margin-top: 50px;
     margin-bottom: 420px;
     border: solid;
-    border-color: #dddddd;
-    color: #777777;
-    background-color: #ffffff;
+    border-color: darkolivegreen;
+    color: darkolivegreen;
     line-height: 1.5;
     position: relative;
 }
 
+/* top right links */
 .links {
-    background-color: #ffffff;
+    background-color: lightgray;
     padding-right: 0;
     padding-bottom: 30px;
     width: 30%;
     text-align: center;
-    font-size: 14px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
     float: right;
-    color: #777777;
+    color: darkolivegreen;
     position: absolute;
     bottom: 0;
     right: 0;
     margin-right: -42px;
 }
 
+/* name area in top left */
 .header-container {
     width: 960px;
     margin-right: auto;
@@ -182,38 +190,50 @@ strong {
     height: 80px;
 }
 
+/* portfolio page text/image relationship image1*/
 .image-1 {
     position: absolute;
 }
 
+/* portfolio page text/image relationship image2 */
 .image-2 {
     position: absolute;
     top: 106px;
     left: 400px;
 }
 
+/* portfolio page text/image relationship image3 */
 .image-3 {
     position: absolute;
     left: 20px;
     top: 360px;
 }
 
+/* portfolio page text/image relationship image4 */
 .image-4 {
     position: absolute;
     top: 360px;
     left: 400px;
 }
 
+/* portfolio page text/image relationship image5 */
 .image-5 {
     position: absolute;
     left: 20px;
     top: 614px;
 }
 
+/* portfolio page text/image relationship image6 */
+.image-6 {
+    position: absolute;
+    top: 614px;
+    left: 400px;
+}
+
+/* text "button" for first portfolio item */
 .image-1-text {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: darkolivegreen;
+    color: lightgray;
     width: 300px;
     text-align: center;
     padding-top: 10px;
@@ -222,10 +242,10 @@ strong {
     top: 140px;
 }
 
+/* text "button" for second portfolio item */
 .image-2-text {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: darkolivegreen;
+    color: lightgray;
     width: 300px;
     text-align: center;
     padding-top: 10px;
@@ -234,10 +254,10 @@ strong {
     top: 140px;
 }
 
+/* text "button" for third portfolio item */
 .image-3-text {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: darkolivegreen;
+    color: lightgray;
     width: 300px;
     text-align: center;
     padding-top: 10px;
@@ -246,10 +266,10 @@ strong {
     top: 140px;
 }
 
+/* text "button" for fourth portfolio item */
 .image-4-text {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: darkolivegreen;
+    color: lightgray;
     width: 300px;
     text-align: center;
     padding-top: 10px;
@@ -258,10 +278,10 @@ strong {
     top: 140px;
 }
 
+/* text "button" for fifth portfolio item */
 .image-5-text {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: darkolivegreen;
+    color: lightgray;
     width: 300px;
     text-align: center;
     padding-top: 10px;
@@ -270,42 +290,62 @@ strong {
     top: 140px;
 }
 
+/* "Name" home "button" */
 .home {
     text-decoration: none;
-    color: white;
+    color: darkolivegreen;
     padding: 0;
 }
 
+/* "Name" home "button" hover feature */
 .home:hover {
-    color: #cccccc;
-    text-decoration: underline;
+    color: darkolivegreen;
+    text-decoration: none;
 }
 
+/* text "button" for first portfolio item hover */
 .image-1-text:hover {
-    color: #cccccc;
-    text-decoration: underline;
+    color: lightgray;
+    text-decoration: none;
 }
 
+/* text "button" for second portfolio item hover */
 .image-2-text:hover {
-    color: #cccccc;
-    text-decoration: underline;
+    color: lightgray;
+    text-decoration: none;
 }
 
+/* text "button" for third portfolio item hover */
 .image-3-text:hover {
-    color: #cccccc;
-    text-decoration: underline;
+    color: lightgray;
+    text-decoration: none;
 }
 
+/* text "button" for fourth portfolio item hover */
 .image-4-text:hover {
-    color: #cccccc;
-    text-decoration: underline;
+    color: lightgray;
+    text-decoration: none;
 }
 
+/* text "button" for fifth portfolio item hover */
 .image-5-text:hover {
-    color: #cccccc;
-    text-decoration: underline;
+    color: lightgray;
+    text-decoration: none;
 }
 
+/* general links active feature */
+a:active {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+/* general links visited feature */
+a:visited {
+    color: darkolivegreen;
+    text-decoration: none;  
+}
+
+/* media call 980px */
 @media screen and (max-width: 980px) {
     .about-me {   
         width: 700px;
@@ -340,6 +380,7 @@ strong {
     }
 }
 
+/* media call 768px */
 @media screen and (max-width: 768px) {
     .about-me {   
         width: 600px;
@@ -392,6 +433,7 @@ strong {
     }
 }
 
+/* media call 640px */
 @media screen and (max-width: 640px) {
     header {
         position: static;
