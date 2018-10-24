@@ -154,7 +154,7 @@ strong {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    height: 840px;
+    height: 1081px;
     padding: 20px 20px 20px 20px;
     margin-top: 50px;
     margin-bottom: 420px;
@@ -230,6 +230,13 @@ strong {
     left: 400px;
 }
 
+/* portfolio page text/image relationship image7 */
+.image-7 {
+    position: absolute;
+    left: 20px;
+    top: 868px;
+}
+
 /* text "button" for first portfolio item */
 .image-1-text {
     background-color: darkolivegreen;
@@ -290,6 +297,30 @@ strong {
     top: 140px;
 }
 
+/* text "button" for sixth portfolio item */
+.image-6-text {
+    background-color: darkolivegreen;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+/* text "button" for seventh portfolio item */
+.image-7-text {
+    background-color: darkolivegreen;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
 /* "Name" home "button" */
 .home {
     text-decoration: none;
@@ -329,6 +360,18 @@ strong {
 
 /* text "button" for fifth portfolio item hover */
 .image-5-text:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* text "button" for sixth portfolio item hover */
+.image-6-text:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* text "button" for seventh portfolio item hover */
+.image-7-text:hover {
     color: lightgray;
     text-decoration: none;
 }
