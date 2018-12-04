@@ -3,15 +3,9 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Rajdhani', sans-serif;
-    background-color: lightgray;
+    background-color: RGB(242, 237, 215);
     color: darkolivegreen;
-}
-
-/* "navbar" */
-header {
-    padding: 0;
-    margin: 0;
-    padding-bottom: 0;
+    background-color: lightgray;
 }
 
 /* name in upper left */
@@ -153,8 +147,8 @@ strong {
     background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
-    width: 960px;
-    height: 1500px;
+    width: 825px;
+    height: 1300px;
     padding: 20px 20px 20px 20px;
     margin-top: 50px;
     margin-bottom: 420px;
@@ -248,7 +242,14 @@ strong {
 .image-9 {
     position: absolute;
     left: 20px;
-    top: 1336px;
+    top: 1122px;
+}
+
+/* portfolio page text/image relationship image10 */
+.image-10 {
+    position: absolute;
+    left: 400px;
+    top: 1122px;
 }
 
 /* text "button" for first portfolio item */
@@ -347,8 +348,20 @@ strong {
     top: 140px;
 }
 
-/* text "button" for eigth portfolio item */
+/* text "button" for ninth portfolio item */
 .image-9-text {
+    background-color: darkolivegreen;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+/* text "button" for tenth portfolio item */
+.image-10-text {
     background-color: darkolivegreen;
     color: lightgray;
     width: 300px;
@@ -420,8 +433,14 @@ strong {
     text-decoration: none;
 }
 
-/* text "button" for eigth portfolio item hover */
+/* text "button" for ninth portfolio item hover */
 .image-9-text:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* text "button" for tenth portfolio item hover */
+.image-10-text:hover {
     color: lightgray;
     text-decoration: none;
 }
@@ -618,4 +637,8 @@ a:visited {
     .image-5-text {
         top: 164px;
     }
+}
+
+#row1 {
+    border-color: black;
 }
