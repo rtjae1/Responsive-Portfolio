@@ -259,6 +259,13 @@ strong {
     top: 1376px;
 }
 
+/* portfolio page text/image relationship image12 */
+.image-12 {
+    position: absolute;
+    left: 400px;
+    top: 1376px;
+}
+
 /* text "button" for first portfolio item */
 .image-1-text {
     background-color: darkolivegreen;
